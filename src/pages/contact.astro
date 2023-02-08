@@ -27,6 +27,10 @@ import Navbar from '../components/Navbar.astro';
 							<p>Linkedin</p>
 						</a>
 					</div>
+					<div class="block block-card">
+						<img src="/img/carte-de-visite-1.jpg" alt="" class="image reveal-1">
+						<img src="/img/carte-de-visite-2.jpg" alt="" class="image reveal-1">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -68,6 +72,17 @@ import Navbar from '../components/Navbar.astro';
 				margin-left: 10px;
 				font-family: 'PF Din Text Universal regular';
 				word-break: break-all;
+			}
+		}
+
+		.block-card {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			img {
+				margin-bottom: 10px;
 			}
 		}
 	}
